@@ -1,6 +1,6 @@
 # 32blit Tools
 
-[![Build Status](https://travis-ci.com/pimoroni/32blit-tools.svg?branch=master)](https://travis-ci.com/pimoroni/32blit-tools)
+[![Build Status](https://shields.io/github/workflow/status/32blit/32blit-tools/Python%20Tests.svg)](https://github.com/32blit/32blit-tools/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/pimoroni/32blit-tools/badge.svg?branch=master)](https://coveralls.io/github/pimoroni/32blit-tools?branch=master)
 [![PyPi Package](https://img.shields.io/pypi/v/32blit.svg)](https://pypi.python.org/pypi/32blit)
 [![Python Versions](https://img.shields.io/pypi/pyversions/32blit.svg)](https://pypi.python.org/pypi/32blit)
@@ -117,6 +117,14 @@ Supported formats:
 
 
 # Changelog
+
+0.6.1
+-----
+
+* Ensure the minimum required version of click is installed - thanks @LordEidi
+* Add separate launch command (in SDK v0.1.11 and later) and `--launch` flag to install - thanks @Daft-Freak
+* Support 16bit tile indexes - thanks @ThePythonator
+* Output URL/Category metadata for SDL builds - thanks @Daft-Freak
 
 0.6.0
 -----
